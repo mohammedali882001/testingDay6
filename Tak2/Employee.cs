@@ -15,7 +15,8 @@ namespace Tak2
         public int Age { get; set; }
 
        public void IncreaseSalary(float amount)
-        { 
+        {
+
             Salary= (float)(Salary + amount);
             EmployeeAndCompanyBudet(amount);
         }
